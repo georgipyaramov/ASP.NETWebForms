@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeloPesho", "HeloPesho\Helo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaklthroughASP.NETWebFormsProject", "WaklthroughASP.NETWebFormsProject\WaklthroughASP.NETWebFormsProject.csproj", "{915B8274-19AB-4D57-82A3-BFA6E1B0F19E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumpAllEventsInTheAsp.NetAppLifecycle", "DumpAllEventsInTheAsp.NetAppLifecycle\DumpAllEventsInTheAsp.NetAppLifecycle.csproj", "{EE49AE22-B0A7-478A-9704-1D5781D2D4C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{915B8274-19AB-4D57-82A3-BFA6E1B0F19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{915B8274-19AB-4D57-82A3-BFA6E1B0F19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{915B8274-19AB-4D57-82A3-BFA6E1B0F19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE49AE22-B0A7-478A-9704-1D5781D2D4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE49AE22-B0A7-478A-9704-1D5781D2D4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE49AE22-B0A7-478A-9704-1D5781D2D4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE49AE22-B0A7-478A-9704-1D5781D2D4C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
