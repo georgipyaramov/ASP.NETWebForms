@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscapeAndShowEnteredMessage
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRegistrationForm", "StudentRegistrationForm\StudentRegistrationForm.csproj", "{9443951C-8492-4FD7-9533-987E4217033F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{140DA072-14D1-4480-87BC-330CB389D1AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9443951C-8492-4FD7-9533-987E4217033F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9443951C-8492-4FD7-9533-987E4217033F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9443951C-8492-4FD7-9533-987E4217033F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140DA072-14D1-4480-87BC-330CB389D1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140DA072-14D1-4480-87BC-330CB389D1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140DA072-14D1-4480-87BC-330CB389D1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140DA072-14D1-4480-87BC-330CB389D1AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
