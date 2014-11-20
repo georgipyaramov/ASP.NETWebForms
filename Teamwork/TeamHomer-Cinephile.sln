@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinephile", "Cinephile\Cinephile.csproj", "{79740B06-AAF8-4AC8-B9EF-4115D03AB38C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinephile.Data", "Cinephile.Data\Cinephile.Data.csproj", "{E79B7FB4-63D7-447D-B183-76FAF2E710F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinephile.DataSeeder", "Cinephile.DataSeeder\Cinephile.DataSeeder.csproj", "{AE687CDB-A4E5-4C72-ABBF-2C379DD1F96D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79740B06-AAF8-4AC8-B9EF-4115D03AB38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79740B06-AAF8-4AC8-B9EF-4115D03AB38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79740B06-AAF8-4AC8-B9EF-4115D03AB38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79740B06-AAF8-4AC8-B9EF-4115D03AB38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79B7FB4-63D7-447D-B183-76FAF2E710F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79B7FB4-63D7-447D-B183-76FAF2E710F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79B7FB4-63D7-447D-B183-76FAF2E710F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79B7FB4-63D7-447D-B183-76FAF2E710F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE687CDB-A4E5-4C72-ABBF-2C379DD1F96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE687CDB-A4E5-4C72-ABBF-2C379DD1F96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE687CDB-A4E5-4C72-ABBF-2C379DD1F96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE687CDB-A4E5-4C72-ABBF-2C379DD1F96D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

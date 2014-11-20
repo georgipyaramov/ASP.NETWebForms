@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8e840009915f4671802ac81a21cf9b40" Name="Diagram1">
+        <EntityTypeShape EntityType="CinephileDbModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.Artist" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.AspNetRole" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.AspNetUserClaim" Width="1.5" PointX="7.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.AspNetUserLogin" Width="1.5" PointX="7.5" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.AspNetUser" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.Country" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.Genre" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.Language" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.Movie" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.Rating" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.Review" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CinephileDbModel.sysdiagram" Width="1.5" PointX="9.75" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="CinephileDbModel.FK_Artists_Coutries" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.FK_Ratings_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.FK_Reviews_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.FK_Movies_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.FK_Ratings_Movies" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.FK_Reviews_Movies" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.MoviesActors" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.MoviesCountries" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.MoviesDirectors" ManuallyRouted="false" />
+        <AssociationConnector Association="CinephileDbModel.MoviesGenres" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

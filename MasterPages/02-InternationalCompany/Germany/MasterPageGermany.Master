@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
+     CodeBehind="MasterPageGermany.master.cs" Inherits="_02_InternationalCompany.Germany.MasterPageGermany" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <h1>Deutschland</h1>
+    <br />
+    <aside class="content">
+        <div class="bs-component">
+            <ul class="nav nav-tabs">
+                <li><a href="GermanyHome.aspx">Zuhause</a></li>
+                <li><a href="GermanyAbout.aspx">über</a></li>
+                <li><a href="GermanyContacts.aspx">Kontakte</a></li>
+            </ul>
+        </div>
+    </aside>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderGermany" runat="server" />
+    </div>
+</asp:Content>
